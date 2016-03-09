@@ -1,0 +1,83 @@
+.card {
+  margin: 30px 13% 0 13%;
+  display: table;
+
+
+  &--metadata {
+    width: 15%;
+    display: table-cell;
+    position: relative;
+
+    &--date {
+      color: #D3D5DA;
+      font-size: .75rem;
+      text-align: right;
+      float: right;
+    }
+
+    &--time {
+      color: #79C1E7;
+      font-size: 3rem;
+    }
+  }
+
+  &--divider {
+    width: 7.5%;
+    background-color: white;
+    display: table-cell;
+    position: relative;
+    vertical-align: top;
+
+
+
+    &--icon {
+      width: 35px;
+      height: 35px;
+      border: 5px solid #B5DDF4;
+      border-radius: 50%;
+      margin: 0 auto;
+      display: block;
+      background-color: #56A6D3;
+
+
+    }
+
+    &--line {
+      width: 5%;
+      background-color: #B5DDF4;
+      margin: 0 auto;
+      height: 100%;
+      display: inline-block;
+      position: absolute;
+      left: 50%;
+    }
+  }
+
+
+  &--entry {
+    color: white;
+    width: 75%;
+    display: table-cell;
+    background-color: #79C1E7;
+    border-radius: 5px;
+    padding: 30px 40px;
+
+
+    &--title {
+      border-bottom: 1px solid white;
+      font-size: 1.1rem;
+    }
+
+    &--content {
+      margin: 20px auto;
+      line-height: 1.5;
+      font-size: 1.2rem;
+    }
+  }
+
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
