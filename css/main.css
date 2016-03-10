@@ -51,12 +51,15 @@ h1 {
     padding: 30px 40px; }
     .card--entry--title {
       border-bottom: 1px solid white;
-      font-size: 1.1rem; }
+      font-size: 1.1rem;
+      font-weight: 400; }
     .card--entry--content {
       margin: 20px auto;
       line-height: 1.5;
       font-size: 1.2rem; }
 
-.clearfix {
-  overflow: auto;
-  zoom: 1; }
+.card:nth-child(even) .card--metadata--time {
+  color: #4797C4; }
+
+.card:nth-child(even) .card--entry {
+  background-color: #4797C4; }
